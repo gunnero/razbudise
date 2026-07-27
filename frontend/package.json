@@ -1,0 +1,34 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node --test src/lib/analytics/editorialTracking.test.mjs src/lib/design/privacyPolicy.test.mjs src/lib/design/authorDirectory.test.mjs src/lib/config/runtime.test.mjs src/lib/datetime/headerDateTime.test.mjs src/lib/design/footerLegalPages.test.mjs src/lib/design/publicFrontendDesign.test.mjs src/lib/design/siteContainerDesign.test.mjs src/lib/design/adBookingPages.test.mjs src/lib/seo/discovery.test.mjs src/lib/seo/jsonLd.test.mjs src/lib/seo/metadataImages.test.mjs src/lib/seo/pagination.test.mjs src/lib/redirects/legacyRedirects.test.mjs src/lib/ads/adTracking.test.mjs src/lib/ads/device.test.mjs src/lib/ads/bookingPresentation.test.mjs src/lib/ads/mediaKitPresentation.test.mjs src/lib/ads/advertisingPagePresentation.test.mjs src/lib/ads/customerDashboardPresentation.test.mjs src/lib/media/mediaUrls.test.mjs src/lib/articles/renderArticleBlocks.test.mjs src/lib/articles/articlePresentation.test.mjs src/lib/articles/eventGuidePresentation.test.mjs src/lib/articles/previewPresentation.test.mjs src/lib/articles/signedPreviewPath.test.mjs src/lib/archive/archivePresentation.test.mjs src/lib/homepage/homepagePresentation.test.mjs src/lib/navigation/siteNavigation.test.mjs src/lib/search/searchPresentation.test.mjs src/lib/settings/siteSettings.test.mjs src/lib/team/teamPresentation.test.mjs",
+    "test:analytics": "node --test src/lib/analytics/editorialTracking.test.mjs",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "lucide-react": "^1.25.0",
+    "next": "16.2.12",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.2.12",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "minimatch": "10.2.5",
+    "postcss": "8.5.18",
+    "sharp": "0.35.3"
+  }
+}

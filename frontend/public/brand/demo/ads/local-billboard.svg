@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="970" height="250" viewBox="0 0 970 250" role="img" aria-labelledby="title desc">
+  <title id="title">Разбуди се демо реклама</title>
+  <desc id="desc">Локален демо банер за проверка на рекламните позиции.</desc>
+  <rect width="970" height="250" fill="#111111"/>
+  <rect x="24" y="24" width="922" height="202" fill="#f7c600"/>
+  <rect x="42" y="42" width="886" height="166" fill="#ffffff"/>
+  <text x="72" y="100" fill="#111111" font-family="Arial, sans-serif" font-size="38" font-weight="800">Разбуди се</text>
+  <text x="72" y="145" fill="#111111" font-family="Arial, sans-serif" font-size="24" font-weight="600">Локален демо банер за рекламните позиции</text>
+  <text x="72" y="181" fill="#5c4a00" font-family="Arial, sans-serif" font-size="18">Без надворешни сервиси. Без продукциски тајни.</text>
+  <circle cx="845" cy="125" r="52" fill="#111111"/>
+  <text x="845" y="136" fill="#f7c600" font-family="Arial, sans-serif" font-size="32" font-weight="800" text-anchor="middle">AD</text>
+</svg>

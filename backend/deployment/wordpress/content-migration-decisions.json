@@ -1,0 +1,12 @@
+{
+    "schema_version": 1,
+    "featured_image_fallbacks": {
+        "2782": 2795
+    },
+    "blob_image_removals": {
+        "10145": {
+            "raw_post_content_sha256": "7bc2af22f1f5260e2109d9e90c8966db9c80d0ae7902b7d7e3d79ace1f282f0b",
+            "expected_blob_image_count": 13
+        }
+    }
+}
