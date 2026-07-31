@@ -51,6 +51,9 @@ docs/*
 !docs/architecture/
 docs/architecture/*
 !docs/architecture/initial-architecture.md
+!docs/screenshots/
+docs/screenshots/*
+!docs/screenshots/homepage.png
 backend/database/seeders/Gunner*.php
 backend/database/seeders/weekly/
 .playwright-cli/
