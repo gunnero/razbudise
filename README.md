@@ -1,5 +1,7 @@
 # RazbudiSe Publishing Platform
 
+[![CI](https://github.com/gunnero/razbudise/actions/workflows/ci.yml/badge.svg)](https://github.com/gunnero/razbudise/actions/workflows/ci.yml)
+
 RazbudiSe is a custom publishing and advertising platform for a Macedonian editorial product. It combines a Laravel API and Filament newsroom with a public Next.js frontend.
 
 **Status:** active development. The public repository demonstrates the application architecture and engineering work; it is not a packaged production release.
@@ -7,6 +9,10 @@ RazbudiSe is a custom publishing and advertising platform for a Macedonian edito
 ## Why it exists
 
 The platform replaces a legacy WordPress publishing workflow with explicit editorial states, structured permissions, dependable migration tooling, reusable media, search, advertising workflows, and a responsive reader experience.
+
+## What I built personally
+
+I designed and implemented the public repository: the Laravel API, Filament newsroom, Next.js reader experience, PostgreSQL domain model, WordPress migration tooling, advertising workflows, search integration, local environment, and automated validation. Product direction, engineering decisions, implementation, and repository documentation are my work unless a file explicitly attributes another source.
 
 ## Implemented
 
@@ -33,6 +39,12 @@ The platform replaces a legacy WordPress publishing workflow with explicit edito
 - Expanded reporting and newsroom planning tools
 
 No automated AI author is implemented.
+
+## Product screenshot
+
+This screenshot was captured from the repository's seeded local demonstration environment. It contains synthetic editorial and advertising content, not production or customer data.
+
+![RazbudiSe seeded local homepage](docs/screenshots/homepage.png)
 
 ## Architecture
 
@@ -97,6 +109,12 @@ npm test
 npm run lint
 npm run build
 ```
+
+The latest verified `main` CI run passed **5 backend tests with 5,788 assertions** and **187 frontend tests**, followed by formatting, lint, and production-build checks. Counts describe the recorded CI run and may change as coverage evolves; the workflow badge above is the current source of truth.
+
+## Release status
+
+The latest tagged engineering milestone is [`v0.1.0-alpha`](https://github.com/gunnero/razbudise/tree/v0.1.0-alpha). It is a source-visible development snapshot, not a production release or availability claim.
 
 ## Security and public boundary
 
